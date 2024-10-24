@@ -2,7 +2,7 @@ $("#bacf-submit").css("cursor", "not-allowed");
 $("#bacf-submit").css("opacity", "0.25");
 
 let bookACallValid = false;
-let isRecaptchaValid = false; // Declare isRecaptchaValid as a global variable
+let isRecaptchaValid = true; // Declare isRecaptchaValid as a global variable
 
 // Function to check if a string is empty
 function isEmpty(str) {
